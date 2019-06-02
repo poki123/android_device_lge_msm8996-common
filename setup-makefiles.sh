@@ -81,7 +81,7 @@ msm8996-common)
     write_headers "$G6_DEVICE_LIST"
 ;;
 *)
-    printf 'Unknown device common: "%s"\n' "$DEVICE_COMMON"
+    printf 'Unknown device common test: "%s"\n' "$DEVICE_COMMON"
     exit 1
 ;;
 esac
