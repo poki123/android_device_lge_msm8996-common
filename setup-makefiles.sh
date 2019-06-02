@@ -89,6 +89,9 @@ g6-common)
 v20-common)
     write_headers "$V20_DEVICE_LIST"
 ;;
+msm8996-common)
+    write_headers "$V20_DEVICE_LIST"
+;;
 *)
     printf 'Unknown device common: "%s"\n' "$DEVICE_COMMON"
     exit 1
